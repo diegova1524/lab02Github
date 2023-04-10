@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colores en CSS</title>
+    <link href="css/estilos.css" rel="stylesheet"/>
+    <style>
+        h1{
+            text-align: center;
+            color: #e63946;
+        }
+        .caja{
+            padding: 10px;
+            color: white;
+            width: 100px;
+            height: 50px;
+            text-align: center;
+            margin: 5px auto;
+            font-size: 10px;
+            float: left;
+        }
+        .rojo{
+            background-color: crimson;
+        }
+        .rosa{
+            background-color: deeppink;
+        }
+        .rgb{
+            background-color: rgb(131,56,236);
+        }
+        .rgba{
+            background-color: rgba(131,56,236, .5);
+        }
+        .hexadecimal{
+            background-color: #0091ad;
+        }
+        .hexa_transparencia{
+            background-color: #0090ad88;
+        }
+        .hsl{
+            background-color: hsl(195, 100%, 50%);
+        }
+        .hsla{
+            background-color: rgba(0, 191, 255, 0.5);
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Color en CSS</h1>
+    <div class="Caja rojo">
+        <p>Color por nombre HTML</p>
+    </div>
+    <div class="caja rosa">
+        <p>Color por nombre HTML</p>
+    </div>
+    <div class="caja rgba">
+        <p>Color por codigo RGB (red, green, blue)</p>
+    </div>
+    <div class="caja rgba">
+        <p>Color por codigo RGBA (red, green, blue, alfa)</p>
+    </div>
+    <div class="caja hexadecimal">
+        <p>Color por codigo Hexadecimal</p>
+    </div>
+    <div class="caja hexa_transparencia">
+        <p>Color por codigo hexadecimal con transparencia</p>
+    </div>
+    <div class="caja hsl">
+        <p>Color por codigo HSL (Hue, Saturation, Lightness</p>
+    </div>
+    <div class="caja hsla">
+        <p>Color por codigo HSLA (Con transparencia)</p>
+    </div>
+</body>
+</html>
